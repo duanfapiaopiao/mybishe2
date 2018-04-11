@@ -212,7 +212,7 @@ def parse_log_file(target_file, log_format):
     method_counts['post_percentile'] = int(method_counts['post'] * 100 / pv)
     method_counts['get_percentile'] = int(method_counts['get'] * 100 / pv)
 
-    print(method_counts)
+    # print(method_counts)
     # 获取每小时、每分钟、每秒的请求数量
     hours_counter = Counter(hours)
     minutes_counter = Counter(minutes)

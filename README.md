@@ -43,13 +43,6 @@
 - second_line_flag 每秒PV曲线图启用标志位
 - cost_time_flag 响应时间区间占比图及响应时间分布图启用标志位
 
-### goaccess
-- goaccess_flag 是否获取GoAccess分析结果，设置为1：获取，0:不获取（需要已安装GoAccess）
-- time-format 日志中的时间格式，用于GoAccess
-- date-format 日志中的日期格式，用于GoAccess
-- goaccess-log-format 日志格式，用于GoAccess
-
-
 
 
 

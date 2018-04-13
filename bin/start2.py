@@ -246,9 +246,6 @@ def parse_log_file(target_file, log_format):
             for url_data in url_data_list:
                 if url_data.url == ' '.join([method, url]):
                     url_data.time.append(match.group(log_format.get('time_index')))
-                    if 'cost_time_index' in log_format.keys():
-                        url_data.cost.append(float(match.group(log_format.get('cost_time_index'))))
-                    break
 
     for url_data in url_data_list:
         # 计算每个特定请求的每秒最大并发
